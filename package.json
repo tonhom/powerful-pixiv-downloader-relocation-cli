@@ -1,0 +1,21 @@
+{
+  "name": "pixiv-download-relocation",
+  "version": "1.0.0",
+  "description": "pixiv relocation tool for chrome extension  Powerful Pixiv Downloader",
+  "main": "index.js",
+  "bin": {
+    "pixiv-re": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "figlet": "^1.6.0",
+    "yargs": "^17.7.2",
+    "yml-config-reader": "^0.1.4"
+  }
+}
